@@ -1,0 +1,100 @@
+.social-icon {
+    width: 5px;
+    /* ปรับขนาดของไอคอนโซเชียล */
+    height: 5px;
+}
+
+.custom-border {
+    border: 200px solid #ffc107;
+    /* ปรับขนาดและสีของกรอบ */
+    border-radius: 100px;
+    /* ปรับขนาดของมุม */
+}
+
+body {
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 20px;
+    font-style: normal;
+    margin: 0;
+    background-color: rgb(255, 238, 216);
+}
+
+.carousel-item {
+    text-align: center;
+    /* จัดให้อยู่ตรงกลาง */
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    width: 5%;
+    /* ปรับขนาดของปุ่มให้เล็กลง */
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-image: none;
+    /* ลบภาพพื้นหลังของปุ่มควบคุมการนำทาง */
+}
+
+.carousel-control-prev {
+    margin-left: -40px;
+    /* ปรับระยะห่างของปุ่ม Previous */
+}
+
+.carousel-control-next {
+    margin-right: -40px;
+    /* ปรับระยะห่างของปุ่ม Next */
+}
+
+.carousel-item img {
+    max-height: 100px;
+    /* ปรับความสูงสูงสุดของรูป */
+    max-width: 20%;
+    /* ปรับความกว้างสูงสุดของรูปเพื่อให้คงสัดส่วน */
+    object-fit: contain;
+    /* ปรับให้รูปภาพปรับตามขนาด */
+}
+
+.container {
+    max-width: 1200px;
+    /* กำหนดความกว้างสูงสุดของเนื้อหา */
+    margin: 0 auto;
+    /* จัดเนื้อหาไปตรงกลาง */
+}
+
+
+h1 {
+    font-size: 24px;
+    margin-top: 0;
+}
+
+p {
+    margin-bottom: 30px;
+}
+
+.contact-info {
+    margin-top: 20px;
+}
+
+.contact-info ul {
+    list-style: none;
+    padding: 0;
+}
+
+.contact-info li {
+    margin-bottom: 10px;
+}
+
+.contact-info li a {
+    text-decoration: none;
+    color: #000;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.bold {
+    font-weight: bold;
+}
